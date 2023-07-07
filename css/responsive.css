@@ -2,6 +2,17 @@
 * expandable menu started
 */
 @media (max-width: 1199px) {
+  .right-side-box {
+    display: none;
+  }
+  .logo-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-brand {
+    padding: 0px !important;
+    margin: 0px;
+  }
   .header-navigation {
     margin-bottom: 0;
   }
@@ -189,7 +200,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-right: 145px;
+            padding: 0 10px;
   }
   .header-navigation .container .logo-box .navbar-brand {
     float: left;
