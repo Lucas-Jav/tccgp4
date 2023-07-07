@@ -2831,6 +2831,7 @@ textarea.leave-comment__input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 500px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -4640,8 +4641,8 @@ textarea.leave-comment__input {
 
 .video-one > img {
   max-width: 100%;
-  -webkit-box-shadow: 0px 20px 40px 0px rgba(14, 40, 41, 0.25);
-          box-shadow: 0px 20px 40px 0px rgba(14, 40, 41, 0.25);
+  /* -webkit-box-shadow: 0px 20px 40px 0px rgba(14, 40, 41, 0.25);
+          box-shadow: 0px 20px 40px 0px rgba(14, 40, 41, 0.25); */
 }
 
 .video-one__link {
