@@ -4988,3 +4988,11 @@ textarea.leave-comment__input {
 .pricing-two__popular .pricing-two__amount span {
   color: var(--thm-base-color);
 }
+
+.gap-10 {
+  gap: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
