@@ -463,6 +463,14 @@
 }
 
 @media (max-width: 767px) {
+  .footer-widget__title {
+    text-align: center;
+  }
+  .footer-widget__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .funfact-one {
     padding-bottom: 72px;
   }
