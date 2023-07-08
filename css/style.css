@@ -64,6 +64,7 @@ a,
 a:hover,
 a:active,
 a:focus {
+  scroll-behavior: smooth;
   text-decoration: none;
 }
 
@@ -1986,10 +1987,20 @@ textarea.leave-comment__input {
 }
 
 .footer-widget__logo {
-  display: inline-block;
+  /* display: inline-block;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  margin-bottom: 10px;
+          transform: translateY(-50%); */
+  margin-bottom: 15px;
+}
+
+.footer-widget__logo img {
+  width: 180px;
+}
+
+.footer-widget > a.footer-widget__logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /*
