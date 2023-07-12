@@ -4996,3 +4996,16 @@ textarea.leave-comment__input {
 .pt-10 {
   padding-top: 10px;
 }
+
+.not-bg-img {
+  background-image: none !important;
+}
+
+a {
+  scroll-behavior: smooth;
+}
+
+.span-d {
+  display: block;
+  margin: 20px auto;
+}
